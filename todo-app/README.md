@@ -69,31 +69,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-làm todo app
-header
-1 cái checkbox  với input nhập nội dung
-checkbox - true - nhiệm vụ hoàn thành
-checkbox - false - nhiệm vụ chưa hoàn thành
-enter để thêm nhiệm vụ
-
-mỗi nv đc thêm sẽ hiển thị bên dưới
-phần hoàn thành và chưa hoàn thành đc chia làm 2 vùng
-trong 1 nv có checkbox ( trạng thái nv ) nội dung và xóa
-kích đúp vào nv để sửa nộid ung enter để lưu
-
-với checkbox trạng thái, có thể thay đổi sau khi add , kích vào true thì đưa đến container hoàn thành
-false thì đưa đến container chưa hoàn thành
-
-dùng 
-typescript
-reactjs
-redux
-fetch / axios
-
-
-API: https://60af56fe5b8c300017dec6c8.mockapi.io/tasks
-2 cái đầu thôi, còn lại là do thêm vào
-
-tình trạng, ko POST đc, ko bắt đc sự kiện enter để thêm nhiệm vụ - t dùng onKeyUp ( e.keyCode === '13' )
-
-ảnh kèm thêo ở folder IMG
