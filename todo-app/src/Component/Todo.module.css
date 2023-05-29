@@ -1,0 +1,101 @@
+.container {
+    margin: 0 auto;
+    width: 860px;
+    border-radius: 10px 0 10px 0;
+}
+
+.form-add-todo {
+    padding: 16px 12px 16px 24px;
+}
+
+.form-add-todo .form-checkbox-status {
+    margin: 0;
+}
+
+.form-add-todo .form-input-title {
+    margin-left: 8px;
+    border: none;
+    outline: none;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.form-btn-add {
+    width: calc(100% - 774.6px);
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 12px;
+    box-sizing: border-box;
+}
+
+.form-btn-add:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.wrap-task {
+    width: 90%;
+    display: flex;
+}
+
+.wrap-content {
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    display: flex;
+}
+
+.task-content {
+    width: calc(100% - 30px);
+}
+
+.task-btn-update {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.task-btn-update:hover {
+    box-shadow: 0 0 4px #ccc;
+    cursor: pointer;
+}
+
+.wrap-content-update{
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.task-content-update {
+    width: calc(100% - 60px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px  10px;
+    outline: none;
+}
+
+.task-btn-ok {
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 11px;
+}
+
+.task-btn-ok:hover {
+    box-shadow: 0 0 4px #ccc;
+    cursor: pointer;
+}
+
+.task-btn-delete {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.task-btn-delete:hover {
+    box-shadow: 0 0 4px #ccc;
+    cursor: pointer;
+}
