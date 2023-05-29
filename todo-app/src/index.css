@@ -27,9 +27,7 @@ li {
   box-shadow: 0px 1px #ccc;
   box-sizing: border-box;
 }
-.task>div {
-  display: flex;
-}
+
 .task input {
   margin: 0;
 }
@@ -39,15 +37,4 @@ li {
 .task .task-content button {
   right: 0;
 }
-.form-add-todo {
-  padding: 16px 12px 16px 24px;
-}
-.form-add-todo .inputCheckbox {
-  margin: 0;
-}
-.form-add-todo .new-todo {
-  margin-left: 8px;
-  border: none;
-  outline: none;
-  width: calc(100% - 31px);
-}
+
