@@ -10,7 +10,7 @@ function TodoInProgress(props) {
 
   return (
     <div className="container list-todo-not-started">
-      {listOfNotes.map((note) => {
+      {listOfNotes?.map((note) => {
         if (note.status === "not_started") {
           return (
             <TodoItem

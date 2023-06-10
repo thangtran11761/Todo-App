@@ -11,7 +11,7 @@ function TodoCompleted(props) {
   return (
     <div className="container list-todo-completed">
       <h2>Completed</h2>
-      {listOfNotes.map((note) => {
+      {listOfNotes?.map((note) => {
         if (note.status === "completed") {
           return (
             <TodoItem
